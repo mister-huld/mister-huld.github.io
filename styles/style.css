@@ -1,0 +1,58 @@
+/* This is a test CSS stylesheet, showing different types of selectors, properties, and values. */
+
+html {
+  font-size: 12px; /* px means 'pixels': the base font size is now 12 pixels high  */
+  font-family: 'Roboto Slab', serif;
+  background-color: #99DABA;
+}
+
+body {
+  width: 600px; /* forces the width of the body element */
+  margin: 0 auto; /* if two values are given for the property, the first affects the top and bottom and the second affects the left and right */
+  background-color: #DEF1E8;
+  padding: 0 20px 20px 20px; /* top, right, bottom, left (clockwise) */
+  border: 5px solid black;
+}
+
+
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: 3px 3px 1px black; /* horizontal offset, vertical offset, blur radius, color */
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+img {
+  display: block; /* because img is a block-level tag */
+  margin: 0 auto;
+}
+
+/* An element (or tag, or type) is used as a selector here */
+/*
+p {
+  color: red;
+}
+*/
+
+/* An ID is used as a selector here */
+/*
+#test-id {
+  font-size: 20px;
+}
+*/
+
+/* A class is used as a selector here */
+/*
+.test-class {
+  font-size: 70px;
+}
+*/
